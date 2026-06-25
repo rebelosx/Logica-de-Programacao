@@ -26,6 +26,18 @@ Protótipo para análise de desempenho acadêmico/físico:
 
 ---
 
+## 📌 Nota sobre a Seleção de Exercícios
+
+Este repositório não foca na quantidade bruta, mas na **profundidade técnica**. Foram selecionados os exercícios da **reta final** da lista de "100 Algoritmos", especificamente os que envolvem:
+
+*   **Domínio de Estruturas Compostas:** Manipulação avançada de vetores, sorteios aleatórios e algoritmos de ordenação.
+*   **Modularização e Reutilização:** Implementação de funções com passagem de parâmetros e retorno de valores.
+*   **Lógica de Negócio Real:** Evolução de exercícios simples para sistemas simulados completos, como a "Lojinha CLI".
+
+A escolha por estes exercícios específicos visa demonstrar a capacidade de resolver problemas que são a base para o desenvolvimento de softwares modernos.
+
+---
+
 ## 🧠 Exercícios de Lógica (Lista 100 Algoritmos)
 
 Resoluções selecionadas da lista do Prof. Guanabara, focando em estruturas de dados e modularização:
