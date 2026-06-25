@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\arthu\\vscode\\Logica-de-Programacao\\exercicios\\C#\\ProjetoDesafio\\ProjetoDesafio.csproj",
+      "projectUniqueName": "c:\\Users\\arthu\\vscode\\Logica-de-Programacao\\C#\\ProjetoDesafio\\ProjetoDesafio.csproj",
       "projectName": "ProjetoDesafio",
-      "projectPath": "c:\\Users\\arthu\\vscode\\Logica-de-Programacao\\exercicios\\C#\\ProjetoDesafio\\ProjetoDesafio.csproj",
+      "projectPath": "c:\\Users\\arthu\\vscode\\Logica-de-Programacao\\C#\\ProjetoDesafio\\ProjetoDesafio.csproj",
       "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\arthu\\vscode\\Logica-de-Programacao\\exercicios\\C#\\ProjetoDesafio\\obj\\",
+      "outputPath": "c:\\Users\\arthu\\vscode\\Logica-de-Programacao\\C#\\ProjetoDesafio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config"
