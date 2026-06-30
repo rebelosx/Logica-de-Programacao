@@ -1,6 +1,6 @@
 # 🎓 Portfólio de Algoritmos e Fundamentos de Programação
 
-Este repositório é dedicado ao registro do meu progresso acadêmico nos cursos de **Sistemas de Informação** e **Administração**. Aqui estão compiladas resoluções de problemas complexos de lógica, algoritmos e a transição prática entre linguagens de baixo e alto nível.
+Este repositório é dedicado ao registro do meu progresso acadêmico no curso de **Sistemas de Informação**. Aqui estão compiladas resoluções de problemas complexos de lógica, algoritmos e a transição prática entre linguagens de baixo e alto nível.
 
 ---
 
