@@ -2,16 +2,44 @@
 <html lang="pt-br">
 <head>
     <title>Aula 11 - Exemplo 2</title>
+    <meta charset="UTF-8">
 </head>
 <body>
-    <button onclick="mostrar_resolucao()" > Mostrar Resolução </button>
     <button onclick="abrir_janela()" > Abrir Janela </button>
+    <button onclick="mostrar_resolucao()" > Mostrar Resolução </button> <!-- Botão clicavel -->
+    <button onclick="iniciar_contador()"> Iniciar Contador </button>
+
+    <p id="resolucao"></p>
+    <p id="contador"></p>
 
     <script>
+        var contador = 0;
+        var  intervalo
+        function iniciar_contador() {
+            contador = 0
+            document.getElementById("contador").innerText = "Contando ...";
+
+            //intervalo a cada 1 segundo (1000 milisegundos)
+            intervalo = setInterval(
+                () => {
+                    contador++
+                    document.getElementById("contador").innerText = "Segundos:" + contador
+                }
+            , 1000 )
+
+            //Para o contador após 10 segundos
+            setTimeout( 
+                () => {
+                    clearInterval( intervalo );
+                    document.getElementById("contador").innerText += "\nContador encerrado. \n10 segundos se passaram.";
+                } 
+            ,10000)
+        }
+        
         function mostrar_resolucao() {
-            let largura = screen.width;
+            let largura = screen.width; <!-- comando do BOM navegador -->
             let altura = screen.height;
-            alert("A resolução da tela é: " + largura + " x " + altura);
+            document.getElementById("resolucao").innerText = "A resolução da tela é: " + largura + " x " + altura; <!-- comando do DOM -->
         }
 
         function abrir_janela() {
