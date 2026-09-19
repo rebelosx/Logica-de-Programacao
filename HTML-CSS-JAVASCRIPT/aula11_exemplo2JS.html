@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Aula 11 - Exemplo 2</title>
+</head>
+<body>
+    <button onclick="mostrar_resolucao()" > Mostrar Resolução </button>
+    <button onclick="abrir_janela()" > Abrir Janela </button>
+
+    <script>
+        function mostrar_resolucao() {
+            let largura = screen.width;
+            let altura = screen.height;
+            alert("A resolução da tela é: " + largura + " x " + altura);
+        }
+
+        function abrir_janela() {
+            window.open("https://www.google.com", "Janela Google", "width=1000,height=300,top=150,left=150");
+        }
+    </script>
+</body>
+</html>
